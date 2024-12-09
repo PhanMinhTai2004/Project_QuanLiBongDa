@@ -36,5 +36,5 @@ CREATE TABLE PhieuDangKy (
     SoNguoiDangKy INT,
     PhiDatCoc DECIMAL(10, 2),
     FOREIGN KEY (MaTaiKhoan) REFERENCES KhachHang(MaTaiKhoan), 
-    FOREIGN KEY (MaSanBong) REFERENCES SanBong(MaSanBong)
+    FOREIGN KEY (MaSanBong) REFERENCES SanBong(MaSanBong) djfhfhihf
 );
